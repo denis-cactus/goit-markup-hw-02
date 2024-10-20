@@ -3,11 +3,12 @@ body {
   background-color: #ffffff;
   color: #434455;
 }
-.contacts .link {
+.contacts {
   color: #434455;
 }
-.contacts,
-.link:hover,
+
+.page-nav-link:hover,
+.page-nav-link:focus,
 .page-nav:hover {
   color: #404bbf;
 }
