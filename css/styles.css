@@ -1,0 +1,11 @@
+body {
+    font-family: "Roboto", sans-serif; 
+}
+.contacts .link {
+    color: #434455;
+
+}   
+.contacts, .link:hover,
+.page-nav:hover {
+    color: #404BBF;
+}
