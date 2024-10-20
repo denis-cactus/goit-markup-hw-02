@@ -53,10 +53,9 @@ button:focus {
 span {
     color:  #2e2f42;    
 }
-.solution {
+
+.title {
     background-color: #2e2f42;
-}
-h1 {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
