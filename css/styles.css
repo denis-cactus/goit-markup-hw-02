@@ -3,11 +3,11 @@ body {
   background-color: #ffffff;
   color: #434455;
 }
-.contacts {
+.contacts .link {
   color: #434455;
-  font-style: normal;
 }
 .contacts,
+.link:hover,
 .page-nav:hover {
   color: #404bbf;
 }
@@ -27,9 +27,5 @@ button:hover {
   text-transform: uppercase;
 }
 span {
-  color: #2e2f42;
-}
-a {
-color: #434455;
-  font-style: normal;
+    color:  #2e2f42;
 }
