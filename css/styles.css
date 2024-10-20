@@ -31,7 +31,7 @@ address {
 .contacts:focus {
   color: #404bbf;
 }
-button {
+.button {
   background: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
@@ -41,8 +41,8 @@ button {
   cursor: pointer;
 
 }
-button:hover,
-button:focus {
+.button:hover,
+.button:focus {
   background: #404bbf;
 }
 .logo {
@@ -54,9 +54,24 @@ button:focus {
   color: #4d5ae5;
   text-transform: uppercase;
 }   
+.main-descr {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color:  #2e2f42;
+}
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .head {
     color:  #2e2f42;    
 }
+
 .foot {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -66,7 +81,29 @@ button:focus {
     text-transform: uppercase;
     color: #f4f4fd;
 }
-h1 {
+
+.page-title {
+    background-color: #2e2f42;
+}
+
+.team {
+  background-color: #F4F4FD;
+}
+
+.team-dscr {
+  background-color: #FFFFFF;
+}
+
+.our-team {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.title {
     background-color: #2e2f42;
     font-size: 56px;
     line-height: 1.07;
