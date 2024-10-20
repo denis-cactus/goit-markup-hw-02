@@ -3,17 +3,25 @@ body {
   background-color: #ffffff;
   color: #434455;
 }
-.contacts,
-.page-nav-link{
+.contacts {
   color: #434455;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  
+  font-style: normal;
+
 }
 
+.page-nav-link{
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
 .page-nav-link:hover,
 .page-nav-link:focus,
 .contacts:hover,
@@ -22,8 +30,16 @@ body {
 }
 button {
   background: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+
 }
-button:hover {
+button:hover,
+button:focus {
   background: #404bbf;
 }
 .logo {
@@ -33,8 +49,17 @@ button:hover {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-  text-transform: uppercase;
 }
 span {
     color:  #2e2f42;    
+}
+.solution {
+    background-color: #2e2f42;
+}
+h1 {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
