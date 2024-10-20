@@ -13,6 +13,9 @@ body {
   font-style: normal;
 
 }
+address {
+    font-style: normal;
+}
 
 .page-nav-link{
     color: #2e2f42;
@@ -49,11 +52,21 @@ button:focus {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-}
-span {
+  text-transform: uppercase;
+}   
+.head {
     color:  #2e2f42;    
 }
-
+.foot{
+    background-color: #2e2f42;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
 .title {
     background-color: #2e2f42;
     font-size: 56px;
