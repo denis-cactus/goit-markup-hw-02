@@ -51,6 +51,7 @@ body {
   color: #4d5ae5;
   text-transform: uppercase;
 }
+            /* Section-2  */
 .main-descr {
   font-weight: 500;
   font-size: 20px;
@@ -64,7 +65,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+            /* Section-2 End */
 .head {
   color: #2e2f42;
 }
