@@ -12,9 +12,6 @@ body {
   letter-spacing: 0.02em;
   font-style: normal;
 }
-.contacts {
-  font-style: normal;
-}
 
 .page-nav-link {
   color: #2e2f42;
@@ -51,7 +48,8 @@ body {
   color: #4d5ae5;
   text-transform: uppercase;
 }
-            /* Section-2  */
+
+/* Section-2  */
 .main-descr {
   font-weight: 500;
   font-size: 20px;
@@ -59,31 +57,23 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-            /* Section-2 End */
+/* Section-2 End */
+
 .head {
   color: #2e2f42;
-}
-
-.foot {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #f4f4fd;
 }
 
 .page-title {
   background-color: #2e2f42;
 }
-
+/* Section-3 */
 .team {
   background-color: #f4f4fd;
 }
@@ -91,7 +81,7 @@ body {
 .team-dscr {
   background-color: #ffffff;
 }
-
+/* Section-3  End */
 .our-team {
   font-size: 36px;
   line-height: 1.11;
@@ -125,4 +115,29 @@ body {
 }
 .page-footer {
   background-color: #2e2f42;
+}
+.foot {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+/* Section-3 */
+.team-card {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.team-card-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
