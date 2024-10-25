@@ -13,7 +13,7 @@ body {
   font-style: normal;
 }
 
-.page-nav-link {
+.page-nav-link > li {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
@@ -78,7 +78,7 @@ body {
   background-color: #f4f4fd;
 }
 
-.team-dscr {
+.team-dscr > li {
   background-color: #ffffff;
 }
 /* Section-3  End */
@@ -140,4 +140,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
+
